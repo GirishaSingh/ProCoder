@@ -4,10 +4,8 @@ import os
 
 app = Flask(__name__)
 
-# Directory to store temporary files
 TEMP_DIR = "temp"
 
-# Ensure the temporary directory exists
 if not os.path.exists(TEMP_DIR):
     os.makedirs(TEMP_DIR)
 
@@ -25,12 +23,10 @@ def run_code():
     if not code:
         return jsonify({'error': 'No code provided'}), 400
 
-    # Save code to a temporary file
     filename = os.path.join(TEMP_DIR, 'Main.java')
     with open(filename, 'w') as f:
         f.write(code)
 
-    # Compile and run the Java code
     compile_command = f"javac {filename}"
     run_command = "java -cp temp Main"
 
@@ -42,7 +38,6 @@ def run_code():
         run_process = subprocess.run(run_command, shell=True, capture_output=True, text=True)
         return jsonify({'output': run_process.stdout, 'errors': run_process.stderr}), 200
     finally:
-        # Clean up temporary files
         os.remove(filename)
         class_file = os.path.join(TEMP_DIR, 'Main.class')
         if os.path.exists(class_file):
