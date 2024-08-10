@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Dark background color */
-    color: #0b0606; /* Light text color */
+    background-color: #121212;
+    color: #0b0606; 
 }
 
 header {
-    background-color: #0b0606; /* Darker header background */
-    color: #0b0606; /* White text color */
+    background-color: #0b0606; 
+    color: #0b0606;
     padding: 10px;
     text-align: center;
 }
@@ -51,8 +51,8 @@ header {
 
 #code {
     height: 400px;
-    background-color: #1e1e1e; /* Dark background for the editor */
-    color: #0b0606; /* Light text color for the editor */
+    background-color: #1e1e1e; 
+    color: #0b0606; 
 }
 
 #output {
@@ -60,6 +60,6 @@ header {
     padding: 10px;
     height: 400px;
     overflow-y: auto;
-    background-color: #1e1e1e; /* Dark background for output */
-    color: #0b0606; /* Light text color for output */
+    background-color: #1e1e1e; 
+    color: #0b0606;
 }
