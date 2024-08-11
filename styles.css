@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('Black_Color.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    color: #f6f4f4; 
+    background-color: #000;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #f6f4f4; 
+    padding: 10px;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.editor-container {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.output-container {
+    flex: 1;
+    border-left: 1px solid #041163;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.editor-header {
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #041163; 
+    color: #f6f4f4; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #041163; 
+}
+
+.CodeMirror {
+    height: 400px;
+    background-color: #041163; 
+    color: #f6f4f4; 
+}
+
+.CodeMirror-gutters {
+    background-color: #030a5d; 
+    border-right: 1px solid #041163; 
+}
+
+#output {
+    border: 1px solid #041163;
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    background-color: #041163; 
+    color: #f6f4f4; 
+}
+
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.message.success {
+    background-color: #2c6f72;
+    color: #f6f4f4;
+}
+
+.message.error {
+    background-color: #e57373;
+    color: #f6f4f4;
+}
+
