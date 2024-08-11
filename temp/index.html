@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Questions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Coding Questions</h1>
+        <input type="text" id="search-bar" placeholder="Search for a question...">
+        <div id="filters">
+            <button class="filter-button" data-difficulty="All">All</button>
+            <button class="filter-button" data-difficulty="Easy">Easy</button>
+            <button class="filter-button" data-difficulty="Medium">Medium</button>
+            <button class="filter-button" data-difficulty="Hard">Hard</button>
+        </div>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Difficulty</th>
+                    <th>Pattern</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody id="question-list">
+                <!-- Questions will be populated here -->
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

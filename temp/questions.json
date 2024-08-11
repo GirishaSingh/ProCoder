@@ -1,0 +1,86 @@
+[
+    {
+        "title": "Two Sum",
+        "url": "https://leetcode.com/problems/two-sum/",
+        "difficulty": "Easy",
+        "pattern": "Array, Hash Table"
+    },
+    {
+        "title": "Add Two Numbers",
+        "url": "https://leetcode.com/problems/add-two-numbers/",
+        "difficulty": "Medium",
+        "pattern": "Linked List, Math"
+    },
+    {
+        "title": "Longest Substring Without Repeating Characters",
+        "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+        "difficulty": "Medium",
+        "pattern": "Sliding Window, Hash Table"
+    },
+    {
+        "title": "Median of Two Sorted Arrays",
+        "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+        "difficulty": "Hard",
+        "pattern": "Binary Search, Array"
+    },
+    {
+        "title": "Reverse Integer",
+        "url": "https://leetcode.com/problems/reverse-integer/",
+        "difficulty": "Easy",
+        "pattern": "Math"
+    },
+    {
+        "title": "Container With Most Water",
+        "url": "https://leetcode.com/problems/container-with-most-water/",
+        "difficulty": "Medium",
+        "pattern": "Two Pointers, Array"
+    },
+    {
+        "title": "3Sum",
+        "url": "https://leetcode.com/problems/3sum/",
+        "difficulty": "Medium",
+        "pattern": "Array, Two Pointers"
+    },
+    {
+        "title": "Regular Expression Matching",
+        "url": "https://leetcode.com/problems/regular-expression-matching/",
+        "difficulty": "Hard",
+        "pattern": "Dynamic Programming, Backtracking"
+    },
+    {
+        "title": "Best Time to Buy and Sell Stock",
+        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+        "difficulty": "Easy",
+        "pattern": "Array, Dynamic Programming"
+    },
+    {
+        "title": "Group Anagrams",
+        "url": "https://leetcode.com/problems/group-anagrams/",
+        "difficulty": "Medium",
+        "pattern": "Hash Table, String"
+    },
+    {
+        "title": "Word Break",
+        "url": "https://leetcode.com/problems/word-break/",
+        "difficulty": "Medium",
+        "pattern": "Dynamic Programming, Trie"
+    },
+    {
+        "title": "Climbing Stairs",
+        "url": "https://leetcode.com/problems/climbing-stairs/",
+        "difficulty": "Easy",
+        "pattern": "Dynamic Programming"
+    },
+    {
+        "title": "Maximum Subarray",
+        "url": "https://leetcode.com/problems/maximum-subarray/",
+        "difficulty": "Easy",
+        "pattern": "Array, Dynamic Programming"
+    },
+    {
+        "title": "Rotate Image",
+        "url": "https://leetcode.com/problems/rotate-image/",
+        "difficulty": "Medium",
+        "pattern": "Array, Matrix"
+    }
+]
